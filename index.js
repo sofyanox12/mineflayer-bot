@@ -1,6 +1,4 @@
-// Bot Configuration
-
-
+// Bot Main Configuration
 var mineflayer = require('mineflayer')
 var express = require('./online.js')
 

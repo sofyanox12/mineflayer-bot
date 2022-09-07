@@ -1,3 +1,5 @@
+// If the server read kicks the Bot
+
 function reconnect() {
   bot = mineflayer.createBot(server)
   bot.on('kicked', () => {
@@ -8,4 +10,6 @@ function reconnect() {
     bot = mineflayer.createBot(server)
   })
 }
+
+// It will reconnect again
 reconnect()
